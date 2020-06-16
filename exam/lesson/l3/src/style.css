@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu+Condensed&display=swap');
+.poster{
+  position: absolute;
+  outline: 1px solid #000;
+  width: 450px;
+  height: 695px;
+  overflow: hidden;
+/*   讓超出方框的物件隱藏 */
+}
+.img{
+  position: absolute;
+  opacity: 0;
+/*   透明度為0 */
+}
+.red1{
+  position: absolute;
+  width: 423px;
+  height: 85px;
+  background-color: #c20116;
+  position: absolute;
+  transform-origin: left top;
+  transform: rotate(45deg);
+/*   角度使用 */
+  margin-top: 150px;
+}
+.text1{
+  position: absolute;
+  right: 0;
+  transform-origin: right top;
+  transform: rotate(-90deg);
+  font-family: 'Ubuntu Condensed', sans-serif;
+/*   字型使用 */
+  font-weight: 700;
+  color: #fff;
+  margin-right: 40px;
+  margin-top: 10px;
+  font-size: 30px;
+  
+}
+.red2{
+  position: absolute;
+  width: 630px;
+  height: 85px;
+  background-color: #b20116;
+  transform-origin: left top;
+  transform: rotate(45deg);
+  margin-top: 265px;
+  margin-left: 7px;
+}
+.text2{
+  position: absolute;
+  font-size: 15px;
+  width: 150px;
+  color: #fff;
+  font-weight: 500;
+  font-family: 'Ubuntu Condensed', sans-serif;
+  text-align: right;
+  margin-top: 15px;
+   
+}
+.black{
+  position: absolute;
+  width: 800px;
+  height: 130px;
+  background-color: #000;
+  transform-origin: left bottom;
+  transform: rotate(-45deg);
+  margin-top: 550px;
+}
+.text3{
+  position: absolute;
+  margin-left: 300px;
+  color: #fff;
+  font-size: 50px;
+  font-weight: 900;
+  font-family: 'Ubuntu Condensed', sans-serif;
+  text-align: right;
+}
+.text3-1{
+  position: absolute;
+  margin-left: 380px;
+  margin-top: 70px;
+  color: #fff;
+  font-size: 50px;
+  font-family: 'Ubuntu Condensed', sans-serif;
+  text-align: right;
+}
+.top{
+  position: absolute;
+  margin-left: 160px;
+  margin-top: 170px;
+  color: #000;
+  font-weight: bolder;
+  font-size: 25px;
+  font-family: 'Ubuntu Condensed', sans-serif;
+  text-align: left;
+  ransform-origin: left top;
+  transform: rotate(-45deg);
+}
+.top2{
+  font-weight: lighter;
+}
+.down{
+  position: absolute;
+  margin-left: 135px;
+  margin-top: 420px;
+  color: #000;
+  font-weight: bolder;
+  font-size: 26px;
+  font-family: 'Ubuntu Condensed', sans-serif;
+  text-align: right;
+  ransform-origin: left top;
+  transform: rotate(-45deg);
+  line-height: 15px;
+}
+.down2{
+ font-weight: lighter;
+ font-size: 25px;
+}
+.down2-5{
+ font-size: 15px;
+}
+.down3{
+ font-weight: bold;
+ font-size: 15px;
+}
+.row{
+  height: 200px;
+  width: 50px;
+  transform-origin: left bottom;
+  transform: rotate(-45deg);
+  margin-left: 395px;
+  margin-top: 445px;
+}
+.col{
+  display: inline-block;
+  height: 150px;
+  width: 5px;
+  vertical-align: bottom;
+  
+  color: #000000;
+  font-size: 10px;
+}
+.big{
+  font-size: 10px;
+  color: #000000;
+  text-align: 50px;
+  line-height: 120px;
+  font-weight: 900;
+  font-family: 'Ubuntu Condensed', sans-serif;
+}
+.col1{
+  background-color: #000000;
+  height: 50px;
+  
+}
+.col2{
+  background-color: #a8a8a8;
+  line-height: 320px;
+}
+.col3{
+  background-color: #000000;
+  height: 80px;
+  line-height: 180px;
+}
+.col4{
+  background-color: #747a7a;
+  line-height: 320px;
+}
+.col5{
+  background-color: #a8a8a8;
+  height: 50px;
+  line-height: -40px;
+}
+.col6{
+  background-color: #747a7a;
+  height: 70px;
+  line-height: 160px;
+}

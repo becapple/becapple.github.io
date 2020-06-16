@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Zhi+Mang+Xing&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap");
+
+
+body{
+    font-family: 'Zhi Mang Xing', cursive;
+    padding: 0;
+    margin: 0;
+}
+
+.area1{
+    height: 100vh;
+    background-image: url(../image/mountain.jpg);
+    background-size: cover;
+    font-size: 60px;
+    position: relative;
+}
+.text{
+    opacity: 0;
+    /* transition: all 0.5s;  */
+    /* 過度狀態, 可以設定中間變化的屬性 */
+    padding-left: 90%;
+    margin-top: 10px;
+    transition-duration: 3.5s;
+    transition-property: all;
+    position: relative;
+}
+
+.area1:hover .text1{
+    position: absolute;
+    opacity: 1;
+    padding-left: 10%;
+    margin-top: 10px;
+}
+.area1:hover .text2{
+    opacity: 1;
+    position: absolute;
+    padding-left: 20%;
+    margin-top: 10px;
+    transition-delay: 0.3s;
+}
+.area1:hover .text3{
+    opacity: 1;
+    position: absolute;
+    padding-left: 30%;
+    margin-top: 10px;
+    transition-delay: 0.5s;
+}
+.area1:hover .text4{
+    opacity: 1;
+    position: absolute;
+    padding-left: 40%;
+    margin-top: 10px;
+    transition-delay: 0.7s;
+}
+.area1:hover .text5{
+    opacity: 1;
+    position: absolute;
+    padding-left: 50%;
+    margin-top: 10px;
+    transition-delay: 1s;
+}
+.area1:hover .text6{
+    opacity: 1;
+    position: absolute;
+    padding-left: 60%;
+    margin-top: 10px;
+    transition-delay: 1.3s;
+}
+.area1:hover .text7{
+    opacity: 1;
+    position: absolute;
+    padding-left: 70%;
+    margin-top: 10px;
+    transition-delay: 1.5s;
+}
+.button{
+    font-family: 'Josefin Sans', sans-serif;
+    height: 50px;
+    width: 150px;
+    background-color: #fff;
+    font-size: 30px;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 20px;
+    user-select: none;
+    /* 字要設定成不能選擇 */
+    cursor: pointer;
+    /* 設定滑鼠移上去的樣式 */
+    border: 0px solid #fff;
+    transform: translate(-50%, -50%);
+    margin-left: calc(180px / 2);
+    margin-top: calc(180px / 2);
+    transition:all 0.25s;
+    padding-top: 5px;
+
+}
+.button:hover {
+    font-size: 40px;
+    width: 180px;
+    height: 60px;
+    border-radius: 20px;
+    background-color: #5abf0d;
+    border: 5px solid #fff;
+}
+
+.box{
+    position: relative;
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    background-color: #000;
+}
+.box img{
+    background-color: #000000;
+    opacity: 50%;
+    height: 100%;
+    position: absolute;
+    background-position: 30% 0;
+    background-size: contain;
+    transition: all 0.5s;
+}
+.box .title{
+    position: absolute;
+    color: #fff;
+    font-size: 50px;
+    right: 10px;
+    bottom: 10px;
+    transition: all 0.5s;
+    font-family: 'Zhi Mang Xing', cursive;
+
+}
+.box .price{
+    position: absolute;
+    color: rgb(255, 254, 254);
+    stroke: rgb(105, 105, 105);
+    font-size: 25px;
+    right: 10px;
+    bottom: -100px;
+    font-family: 'Josefin Sans', sans-serif;
+    transition: all 0.5s;
+
+}
+.box:hover img{
+    margin-left: -100px;
+    background-color: #000000;
+    opacity: 100%;
+}
+.box:hover .title{
+    bottom: 35px;
+}
+.box:hover .price{
+    bottom: 10px;
+}

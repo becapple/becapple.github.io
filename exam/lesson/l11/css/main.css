@@ -1,0 +1,49 @@
+.body{
+    box-sizing: border-box;
+
+}
+.demo {
+    min-height: 100px;
+    border: 4px solid #a1a1a1;
+    background-color: #fff;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+.btn {
+    background-color: pink;
+    padding: 10px;
+    user-select: none;
+    /* 使用者不能選擇文字 */
+    cursor: pointer;
+    /* 滑鼠變成手指符號 */
+    text-align: center;
+    border-radius: 10px;
+}
+
+.btn2{
+    width: calc(100vw / 2.5);
+}
+.btn4{
+    width: calc(100vw / 2.5);
+}
+.btn6{
+    width: calc(100vw / 2.5);
+}
+.btn3{
+    width: calc(100vw / 2.5);
+    position: relative;
+    margin-left: calc(100vw / 2);
+    margin-top: -40px;
+}
+.btn5{
+    width: calc(100vw / 2.5);
+    position: relative;
+    margin-left: calc(100vw / 2);
+    margin-top: -40px;
+}
+.btn7{
+    width: calc(100vw / 2.5);
+    position: relative;
+    margin-left: calc(100vw / 2);
+    margin-top: -40px;
+}

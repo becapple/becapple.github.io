@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:400,700');
+
+section article{
+  font-family: 'Ubuntu', sans-serif;
+  padding-left: 210px;
+}
+section article h1{
+  font-weight: 700;
+  font-size: 30px;
+}
+nav{
+  width: 50px;
+  height: 100vh;
+  position: fixed;
+  background-color: #555;
+  left: 0;
+  top: 0;
+  overflow: hidden;
+
+}
+nav:hover{
+  width: 200px;
+}
+nav ul li:hover{
+  background-color: #222;
+
+  
+}
+nav ul li a:hover{
+  color: #baf7eb;
+  border-left: 4px solid #ff7b00;
+}
+nav ul{
+  list-style-type: none;
+  padding: 10px;
+  
+}
+nav ul li{
+  
+}
+nav ul li a{
+  text-decoration: none;
+  color: #eee;
+  font-size: 30px;
+/*   這些icon 是文字, 不是圖片, 要修改可用文字格式 */
+  white-space: nowrap;
+/*   將自動斷行刪掉 */
+}
+
+.fa{
+  margin-right: 10px;
+  margin-top: 10px;
+}

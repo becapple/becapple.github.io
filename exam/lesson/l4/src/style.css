@@ -1,0 +1,57 @@
+body{
+  margin: 0;
+  padding: 0;
+/* 內容邊界的縮排 */
+}
+.row{
+  font-size: 0;
+/*   讓原本的空白間隔消除 */
+ 
+}
+.col{
+/*  col中的相同內容 */
+  display: inline-block;
+/*   可以直接在行內作排列, 等同於用ml40做排版 */
+  height: 100%;
+/*   vh=view height 螢幕可視範圍的高度 */
+  width: calc(99.9%/ 6);
+/* 自動計算cal(計算式: +-要空一格 */
+  font-size: initial;
+/*   消除空白間隔導致數字不見,利用這個再把數字叫回來 */
+  vertical-align: top;
+/* 垂直對齊 */
+  text-align: center;
+/* 文字置中 */
+  line-height: calc(100vh - 26px);
+/* 行高 */
+  curcor: pointer;
+/* 滑鼠游標變為手指 */
+}
+/* 微互動-hover: 滑鼠碰到自有變化 */
+.col:hover .big{
+  font-size: 35px;
+}
+.big{
+  font-size: 20px;
+  color: #0080ff;
+}
+.col1{
+  background-color: #ff0000;
+/*   font-size: 30px; */
+/* 寫在後面的會壓住前面的 */
+}
+.col2{
+  background-color: #ff8000;
+}
+.col3{
+  background-color: #ffff00;
+}
+.col4{
+  background-color: #00ff00;
+}
+.col5{
+  background-color: #00ffff;
+}
+.col6{
+  background-color: #0000ff;
+}

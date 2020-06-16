@@ -1,0 +1,314 @@
+@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Reenie+Beanie&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap');
+
+body{
+/*   max-width: 1280px;
+  left: 0;
+  right: 0;
+  margin: auto; */
+  padding: 0;
+  background-image: linear-gradient(to top, #ffff4a, #00ffff);
+/*   background-image: url(https://images.pexels.com/photos/3556117/pexels-photo-3556117.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+/* .me{
+  width: 100vw;
+  height: 50px;
+} */
+.big1{
+  font-size: 70px;
+  color: #fb04ff;
+}
+.topic:hover .big1{
+  font-size: 85px;
+  color: #ff005f;    
+}
+.text:hover {
+  font-size: 85px;
+  color: #0000f5;    
+}
+.text1:hover {
+  font-size: 85px;
+  color: #0000f5;    
+}
+.text2:hover {
+  font-size: 85px;
+  color: #0000f5;    
+}
+.area11:hover {
+  font-size: 50px;
+  color: #0000f5;    
+}
+
+
+
+.topic{
+  height: 300px;  
+  opacity: 80%;
+  background-image: url(https://images.pexels.com/photos/3556117/pexels-photo-3556117.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: 'Permanent Marker', cursive;
+  font-size: 50px;
+  text-align: center;
+  margin-top: 10px;
+  line-height: 70px;
+  color: #a00fff;
+  
+  
+}
+.area{
+  margin: 30px;
+  padding: 20px 40px 20px;
+  box-sizing: border-box;
+  text-align: center;
+  box-sizing: border-box;  
+  font-family: 'Gloria Hallelujah', cursive;
+  border-radius: 90px;
+  opacity: 80%;
+  background-color: #fff;
+  position: relative;
+}
+.area1{
+  margin: 80px 10px 10px 10px;
+}
+.aspecial{
+  margin: 10px;
+  padding: 0 10px;
+  display: inline-block;
+  font-family: 'Gloria Hallelujah', cursive;
+  width: calc(100% /2);
+}
+.photo{
+  margin: 10px;
+  padding: 5px;
+  text-align: left;
+  box-sizing: border-box; 
+  border-radius: 10px;
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+/* .float{
+  position: absolute;
+  float: none;
+  background-attachment: fixed; */
+}
+
+.area18{
+  height: 650px;
+}
+.area11{
+/*   position: absolute; */
+  height: 250px;
+  width: 250px;
+  left: calc(100% /1.3);
+  border-radius: 360px;
+  opacity: 50%;
+  background-image: linear-gradient(to top,#ffffff,#a909ff);
+  font-family: 'Permanent Marker', cursive;
+  font-size: 50px;
+  text-align: center;
+  line-height: 250px;
+
+}
+.box{
+  overflow: hidden;
+  outline: 0px solid #ffffff;
+  border-radius: 90px;
+  width: 600px;
+  height: 440px;
+  position: absolute;
+  left: -10px;
+  float: none;
+  
+}
+.float1{
+  position: absolute;
+  margin-top: 300px;
+  float: right;
+  margin-left: 800px;
+  width: 430px;
+  height: 400px;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+.area2{
+  position: absolute;
+  
+}
+.area215{
+  margin-left: calc(90% /4);
+  margin-top: 100px;
+  width: 1000px;
+}
+.area22{  
+  background-image: url(https://miro.medium.com/max/2560/1*Z6Z8F2dezcemfJ3XFOAB4w.jpeg);
+  opacity: 80%;
+  height: 800px;
+  width: 1000px;
+  background-position: -30px -30px;
+  background-attachment: fixed;
+  transform-origin: right top;
+  transform: rotate(-15deg);
+}
+.area4{
+  margin: 80px 10px 10px 10px;
+}
+.area5{
+  margin: 10px 10px 10px 10px;
+}
+.area6{
+  margin: -100px 10px 10px 10px;
+}
+.area33{
+  background-image: url(https://a.ksd-i.com/a/2019-07-01/118013-748798.jpg);
+  height: 500px;
+  background-position: 10px 0;
+  margin: 50px 10px 70px 10px;
+  
+}
+.text{
+/*   border-radius: 360px; */
+  opacity: 50%;
+  background-image: linear-gradient(to top,#4d98fa,#ffff00);
+  background-attachment: fixed;
+  font-family: 'Permanent Marker', cursive;
+  font-size: 50px;
+  text-align: center;
+  line-height: 250px;
+  margin-top: 30px;
+}
+.text1{
+/*   border-radius: 360px; */
+  opacity: 65%;
+  background-image: linear-gradient(to top,#4d98fa,#ffff00);
+  background-attachment: fixed;
+  font-family: 'Permanent Marker', cursive;
+  font-size: 70px;
+  text-align: center;
+  line-height: 120px;
+  width: calc(100vw /1.5);
+  margin-left: calc(100vw /5);
+  height: 80px;
+  transform: skew(30deg);
+  background: linear-gradient(to top,#ffff09,transparent);
+  margin-top: 80px;
+}
+.text2{
+/*   border-radius: 360px; */
+  opacity: 50%;
+  background-image: linear-gradient(to top,#4d98fa,#ffff00);
+  background-attachment: fixed;
+  font-family: 'Permanent Marker', cursive;
+  font-size: 50px;
+  line-height: 250px;
+  text-align: center;
+  height: 300px;
+  width: 300px;
+  border-radius: 360px;
+  margin-left: calc(100vw/1.5);
+ 
+}
+.area44{
+  background-attachment: local;
+  background-image: url(https://i.insider.com/5e9efe10a34b3c684d0e10e3?width=1000&format=jpeg&auto=webp);
+  background-size: cover;
+  border-radius: 360px;
+  background-position: -100px 0;
+  height: 450px;
+  width: 450px;
+  float:left;
+  
+}
+.area55{
+  background-image: url(https://imgur.com/dlZ8tLC.jpg);
+  height: 600px;
+  width: 200px;
+  background-position: -480px 50px;
+  opacity: 80%;
+  float: left;
+}
+.area552{
+  background-image: url(https://imgur.com/fkNlepz.jpg);
+  width: calc(100vw /2);
+  height: calc(100vh /2);
+  background-position: 180px 0;
+  float:right;
+}
+.area56{
+  background-image: url(https://imgur.com/dlZ8tLC.jpg);
+  height: 300px;
+  width: 600px;
+  background-size: cover;
+/*   position: absolute; */
+  margin-left: calc(100vw /2);
+  opacity: 30%;
+  
+}
+
+.area66{
+  background-image: url(https://cdn.cnn.com/cnnnext/dam/assets/170119131232-michael-jordan-collage-tease-exlarge-169.jpg);
+  height: 400px;
+  background-position: -100px 200px;
+  opacity: 60%;
+}
+.a61{
+  background-image: url(https://s.yimg.com/ny/api/res/1.2/RImlm.LQNmZ2BCTmehFWzg--~A/YXBwaWQ9aGlnaGxhbmRlcjtzbT0xO3c9ODAw/https://media.zenfs.com/zh-tw/ltsports.com.tw/c191869b15da0822e2ecc523a604b47c);
+  height: 400px;
+  width: 400vw;
+  float: right;
+  background-position: -600px 20px;
+}
+.box1{
+  outline:0px solid #000000;
+  overflow: hidden;
+/*   position: absolute; */
+  float: left;
+  width: 300px;
+  border-radius: 360px 0 0 360px;
+}
+.peo{
+  background-image: url(https://upload.wikimedia.org/wikipedia/zh/0/01/Jumpman_logo.png);
+  width: 200px;
+  height: 200px;
+  background-repeat: no-repeat;
+  float: right;
+  opacity: 80%;
+}
+.peo2{
+  background-image: url(https://upload.wikimedia.org/wikipedia/zh/0/01/Jumpman_logo.png);
+  width: 300px;
+  height: 300px;
+  background-repeat: no-repeat;
+  float: center;
+  position: absolute;
+  margin-left: 300px;
+  transform-origin: left top;
+  transform: rotate(15deg);
+  opacity: 60%;
+}
+.peo3{
+  background-image: url(https://upload.wikimedia.org/wikipedia/zh/0/01/Jumpman_logo.png);
+  width: 200px;
+  height: 200px;
+  background-repeat: no-repeat;
+  position: absolute;
+  margin-left: 50px;
+/*   float: right; */
+  transform-origin: left top;
+  transform: rotate(45deg);
+  opacity: 40%;
+}
+.foottal{
+  padding: 0 50px;
+  height: 20px;
+  background-color: #000000;
+  color: #ffffff;
+  text-align: right;
+  font-size: 18px;
+}

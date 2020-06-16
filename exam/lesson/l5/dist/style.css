@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Modak&display=swap');
+body{
+  margin: 0;
+/*   padding: 0; */
+  background-image: url(https://images.pexels.com/photos/40723/silhouettes-people-worker-dusk-40723.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+  padding: 50px;
+  background-attachment: fixed;
+/*   讓底圖不會因為滑鼠而動 */
+  background-repeat: no-repeat;
+}
+.area{
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.area1{
+  background-image: url(https://images.pexels.com/photos/128880/parachute-skydiving-parachuting-jumping-128880.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+}
+.area2{
+  background-image: url(https://images.pexels.com/photos/3706673/pexels-photo-3706673.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+}
+.area25{
+  background-image: url(http://idben.tw-no1.com/ntuewd/images/dlg.png),url(http://idben.tw-no1.com/ntuewd/images/bear1.png),url(https://dsa.ntue.edu.tw/epaper/images/bodybg.gif);
+  background-repeat: no-repeat,no-repeat,repeat;
+  background-size: 300px 300px ,300px 300px,50px 50px;
+  background-position: 100px 150px, 400px 350px;
+  background-attachment: initial;
+}
+.txt1{
+  font-size: 100px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  margin-top: 180px;
+  margin-left: 50px;
+  transform-origin: right top;
+  transform: rotate(-20deg);
+  font-family: 'Modak', cursive;
+  color: #1b592b;
+  
+}
+.area3{
+  background-image: url(https://images.pexels.com/photos/163425/war-desert-guns-gunshow-163425.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+}
+.area4{
+  background-image: url(https://images.pexels.com/photos/163518/war-desert-guns-gunshow-163518.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+}
+.area5{
+  background-image: url(https://images.pexels.com/photos/876344/pexels-photo-876344.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+}
