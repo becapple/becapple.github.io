@@ -1,0 +1,193 @@
+.img{
+    z-index: -99;
+    height: 100vh;
+    background: fixed;
+
+}
+.floorBefore{
+
+    position: absolute;
+    height: 65vh;
+    margin-left: 17vw;
+    margin-top: 30vh;
+}
+.floorAfter{
+    z-index: 5;
+    position: absolute;
+    height: 65vh;
+    margin-left: 17vw;
+    margin-top: 30vh;
+
+}
+
+.ques{
+    font-size: 20px;
+    font-style: italic;
+    width: 400px;
+    height: 50px;
+    color: white;
+    position: absolute;
+    margin-left: 20vw;
+    margin-top: 15vh;
+
+}
+.find{
+    height: 50vh;
+    width: 10vw;
+
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: block;
+
+}
+.submit{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    border: 2px solid #fff;
+
+    width: 50px;
+    padding: 9px;
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+
+    text-decoration: none;
+
+}
+.box{
+    z-index: 2;
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 12vh;
+    background-color: rgba(255, 255, 255, 0.342);
+    border: 1px solid #fff;
+    border-radius: 10px;
+    margin: 8px;
+    display: none;
+
+}
+
+.bookcase{
+    z-index: 4;
+    height: 20vh;
+    position: absolute;
+    margin-left: 37vw;
+    margin-top: 70vh;
+    cursor: pointer;
+}
+.bat{
+    z-index: 3;
+    height: 10vh;
+    position: absolute;
+    margin-left: 32vw;
+    margin-top: 83vh;
+    cursor: pointer;
+}
+.cup{
+    z-index: 3;
+    height: 10vh;
+    position: absolute;
+    margin-left: 40vw;
+    margin-top: 83vh;
+    cursor: pointer;
+}
+.bigbed{
+    z-index: 4;
+    height: 28vh;
+    position: absolute;
+    margin-left: 16.2vw;
+    margin-top: 53vh;
+    cursor: pointer;
+}
+.bed{
+    z-index: 4;
+    height: 8vh;
+    position: absolute;
+    margin-left: 23.5vw;
+    margin-top: 38vh;
+    cursor: pointer;
+}
+.book{
+    z-index: 4;
+    height: 30vh;
+    position: absolute;
+    margin-left: 33vw;
+    margin-top: 55vh;
+    cursor: pointer;
+}
+.batBox{
+    top: 14vh;
+    height: 8vh;
+
+}
+.cupBox{
+    top: 24vh;
+    height: 8vh;
+    padding-left: 1.5vw;
+
+
+}
+.bedBox{
+    top: 0;
+    height: 8vh;
+    width: 7vw;
+    padding-left: 1.5vw;
+}
+.bigbedBox{
+    top: 9vh;
+    width: 7vw;
+    padding-left: 1.5vw;
+}
+.bookBox{
+    top: 22vh;
+    width: 7vw;
+    height: 10vh;
+    padding-left: 1.5vw;
+}
+.bookcaseMove{
+    display: none;
+    z-index: 3;
+    height: 10vh;
+    position: relative;
+
+}
+.batMove{
+    display: none;
+    z-index: 3;
+    height: 6vh;
+    position: relative;
+
+
+}
+.cupMove{
+    display: none;
+    z-index: 3;
+    height: 10vh;
+    position: relative;
+    margin-left: 2vw;
+
+}
+.bigbedMove{
+    display: none;
+    z-index: 3;
+    height: 11vh;
+    position: relative;
+    /* margin-right: 2vw; */
+}
+.bedMove{
+    display: none;
+    z-index: 3;
+    height: 15vh;
+    position: relative;
+    right: 2vw;
+    top: -1vh;
+}
+.bookMove{
+    display: none;
+    z-index: 3;
+    height: 10vh;
+    position: relative;
+    /* margin-left: 2vw; */
+}

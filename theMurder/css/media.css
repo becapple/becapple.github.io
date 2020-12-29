@@ -1,0 +1,47 @@
+@media(min-width :375px){
+    .turn{
+        display: block;
+    }
+    .first,
+    .button1{
+        display: none;
+    }
+}
+@media(min-width: 667px){
+    .turn{
+        display: none;
+    }
+    .first,
+    .button1{
+        display: block;
+    }
+    .container{
+        width: 100vw;
+
+        background-color: #000;
+    }
+    .submit{
+        font-size: 12px;
+    }
+
+}
+@media(min-width: 1366x){
+    .container{
+        width: 100vw;
+        height: 100vh;
+        background-color: #000;
+    }
+    .bookcase{
+        margin-left: 47vw;
+    }
+    .bat{
+        margin-left: 42vw;
+    }
+    .cup{
+        margin-left: 50vw;
+    }
+
+
+
+
+}

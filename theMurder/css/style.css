@@ -1,0 +1,109 @@
+@import url(normalize.css);
+@import url(media.css);
+@import url(find.css);
+
+
+html{
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.turn{
+    color: white;
+    height: 100vh;
+    background-color: #000;
+}
+.first{
+    width: 100vw;
+    height: 100vh;
+}
+.next{
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(255, 252, 251);
+
+}
+
+.button1{
+    width: 100px;
+    height: 25px;
+    /* border-bottom: 1px solid #a53a3a; */
+    font-size: 18px;
+    color: #970000;
+    position: absolute;
+    right: 3vw;
+    bottom: 15vh;
+}
+
+.button2{
+    width: 100px;
+    height: 25px;
+    /* border-bottom: 1px solid #a53a3a; */
+    font-size: 18px;
+    color: #a53a3a;
+    position: absolute;
+    left: 2vw;
+    bottom: 2vh;
+}
+.button3{
+    width: 100px;
+    height: 25px;
+    /* border-bottom: 1px solid #a53a3a; */
+    font-size: 18px;
+    color: #a53a3a;
+    position: absolute;
+    right: -2vw;
+    bottom: 2vh;
+}
+
+.rule{
+    color: #fff;
+    background-color: #000;
+    width: 100vw;
+    font-size: 14px;
+    /* padding: 15px; */
+    /* padding-left: 20vw; */
+    line-height: 25px;
+}
+.black{
+    opacity: 0.3;
+
+}
+
+.quesFinal{
+    position: absolute;
+    color: white;
+    font-size: 40px;
+    font-style: bold;
+    display: block;
+    top: 60vh;
+    margin-left: 25vw;
+
+
+
+}
+
+.yes{
+    color: #00c9bf;
+    width: 20vw;
+    position: relative;
+    text-decoration: none;
+}
+.no{
+    color: #00c9bf;
+    width: 20vw;
+    position: relative;
+    text-decoration: none;
+}
+.win{
+    z-index: 5;
+    height: 100vh;
+}
+.lose{
+    z-index: 5;
+    height: 100vh;
+}
+
+
