@@ -20,6 +20,7 @@ html{
 }
 .next{
     text-decoration: none;
+    z-index: 10;
 }
 a:hover{
     color: rgb(255, 252, 251);
